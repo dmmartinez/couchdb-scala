@@ -24,9 +24,9 @@ resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
 libraryDependencies ++= Seq(
   "org.scalaz"                  %% "scalaz-core"                 % "7.1.3",
   "org.scalaz"                  %% "scalaz-effect"               % "7.1.3",
-  "org.http4s"                  %% "http4s-core"                 % "0.10.0",
-  "org.http4s"                  %% "http4s-client"               % "0.10.0",
-  "org.http4s"                  %% "http4s-blaze-client"         % "0.10.0",
+  "org.http4s"                  %% "http4s-core"                 % "0.11.2",
+  "org.http4s"                  %% "http4s-client"               % "0.11.2",
+  "org.http4s"                  %% "http4s-blaze-client"         % "0.11.2",
   "com.lihaoyi"                 %% "upickle"                     % "0.3.6",
   "com.github.julien-truffaut"  %% "monocle-core"                % "1.1.1",
   "com.github.julien-truffaut"  %% "monocle-macro"               % "1.1.1",
