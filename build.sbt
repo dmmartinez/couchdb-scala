@@ -8,7 +8,7 @@ organization := "com.ibm"
 
 name := "couchdb-scala"
 
-version := "0.7.1-paradiso"
+version := "0.7.1-paradiso3"
 
 scalaVersion := "2.11.7"
 
@@ -22,9 +22,9 @@ licenses := Seq("The Apache Software License, Version 2.0"
 libraryDependencies ++= Seq(
   "org.scalaz"                  %% "scalaz-core"                 % "7.1.7",
   "org.scalaz"                  %% "scalaz-effect"               % "7.1.7",
-  "org.http4s"                  %% "http4s-core"                 % "0.13.0-paradiso",
-  "org.http4s"                  %% "http4s-client"               % "0.13.0-paradiso",
-  "org.http4s"                  %% "http4s-blaze-client"         % "0.13.0-paradiso",
+  "org.http4s"                  %% "http4s-core"                 % "0.13.0-paradiso3",
+  "org.http4s"                  %% "http4s-client"               % "0.13.0-paradiso3",
+  "org.http4s"                  %% "http4s-blaze-client"         % "0.13.0-paradiso3",
   "com.lihaoyi"                 %% "upickle"                     % "0.3.8",
   "com.github.julien-truffaut"  %% "monocle-core"                % "1.1.1",
   "com.github.julien-truffaut"  %% "monocle-macro"               % "1.1.1",
