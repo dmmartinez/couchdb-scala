@@ -1,14 +1,14 @@
-import xerial.sbt.Sonatype.SonatypeKeys._
+//import xerial.sbt.Sonatype.SonatypeKeys._
 
-sonatypeSettings
+//sonatypeSettings
 
-profileName := "com.ibm.couchdb-scala"
+//profileName := "com.ibm.couchdb-scala"
 
 organization := "com.ibm"
 
 name := "couchdb-scala"
 
-version := "0.7.1-SNAPSHOT"
+version := "0.7.1-paradiso-SNAPSHOT"
 
 scalaVersion := "2.11.7"
 
@@ -20,11 +20,11 @@ licenses := Seq("The Apache Software License, Version 2.0"
   -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 libraryDependencies ++= Seq(
-  "org.scalaz"                  %% "scalaz-core"                 % "7.1.3",
-  "org.scalaz"                  %% "scalaz-effect"               % "7.1.3",
-  "org.http4s"                  %% "http4s-core"                 % "0.12.1",
-  "org.http4s"                  %% "http4s-client"               % "0.12.1",
-  "org.http4s"                  %% "http4s-blaze-client"         % "0.12.1",
+  "org.scalaz"                  %% "scalaz-core"                 % "7.1.7",
+  "org.scalaz"                  %% "scalaz-effect"               % "7.1.7",
+  "org.http4s"                  %% "http4s-core"                 % "0.13.0-paradiso",
+  "org.http4s"                  %% "http4s-client"               % "0.13.0-paradiso",
+  "org.http4s"                  %% "http4s-blaze-client"         % "0.13.0-paradiso",
   "com.lihaoyi"                 %% "upickle"                     % "0.3.8",
   "com.github.julien-truffaut"  %% "monocle-core"                % "1.1.1",
   "com.github.julien-truffaut"  %% "monocle-macro"               % "1.1.1",
